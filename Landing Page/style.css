@@ -1,0 +1,96 @@
+  body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+      color: #fff;
+  }
+
+  header {
+      background: url('https://your-image-url.jpg') center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 5em 1em;
+  }
+
+  header h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+  }
+
+  nav {
+      background-color: rgba(255, 255, 255, 0.8);
+      overflow: hidden;
+  }
+
+  nav a {
+      float: left;
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  section {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 2em;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s;
+  }
+
+  section:hover {
+      transform: scale(1.02);
+  }
+
+  h2 {
+      color: #333;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+  }
+
+  p {
+      color: #555;
+      line-height: 1.6;
+  }
+
+  .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      text-align: center;
+      text-decoration: none;
+      background-color: #FF0000;
+      color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+      background-color: #FF4500;
+  }
+
+  section.services {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2em;
+  }
+
+  section.contact {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2em;
+  }
+
+  li {
+      color: #555;
+  }
